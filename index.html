@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LA Syahrul Nizam</title>
+  </head>
+  <!--CSS-->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: "Quicksand", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav li {
+      display: inline;
+      list-style-type: none;
+      margin-right: 20px;
+    }
+    nav{
+      background-color: aliceblue;
+      padding: 5px;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      font-size: 18px;
+      font-weight: 400;
+      text-decoration: none;
+      color:black;
+    }
+    nav a:hover {
+      font-weight: bold;
+    }
+    header {
+      display: inline;
+    }
+    section img{
+      border-radius: 100%;
+      border: 5px solid rgb(6, 5, 5);
+    }
+    section {
+      padding-top: 3rem;
+    }
+    footer {
+      padding: 20px;
+      color: black;
+      background-color: aliceblue;
+      text-align: center;
+      font-weight: bold;
+    }
+    table {
+      display: inline;
+    }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      border: 8px solid black;
+   }
+   .button {
+    background-color: aliceblue
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  
+
+  </style>
+
+  <!--Akhir CSS-->
+  
+  <body id="home">
+
+    <!--NAVBAR-->
+    <header id="header" role="banner">
+      <nav role="navigation" class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+        <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="CV Syahrul Nizam_Mahasiswa MSIB Batch 4 2023.pdf" download="CV Syahrul Nizam_Mahasiswa MSIB Batch 4 2023">Download CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About Me</a></li>
+      </nav>
+    </ul>
+      <hr />
+    </header>
+    <!--Akhir Nav-->
+
+    <div class="card">
+
+    <!--Home-->
+
+    <section align="center">
+      <img src="profil.jpg" alt="Syahrul Nizam" width="200" />
+      <h1>Syahrul Nizam</h1>
+      <p>Mahasiswa | S1 Sistem Informasi</p>
+      <hr />
+    
+
+      <h2>Overview</h2>
+      <p>Hi saya adalah developer web dan saat ini sedang belajar HTML di hatimuu 😘</p>
+ 
+    
+    <!--Table--> 
+      <table>
+        <th width="300px" bgcolor="#f2f2f2">Skill</th>
+        <tr>
+          <td bgcolor="#f2f2f2">
+            <ul align="left">
+              <li>HTML(Expert)</li>
+              <li>CSS(Beginner)</li>
+              <li>Javascript(Beginner)</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table>
+        <th width="300px" bgcolor="#f2f2f2">Pengalaman</th>
+        <tr>
+          <td bgcolor="#f2f2f2">
+            <ul align="left">
+              <li>Front end web developer</li>
+              <li>Back end developer</li>
+              <li>Fullstack developer</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+      <hr>
+      <!--Akhir Table-->
+
+      <!--Akhir Home-->
+
+      <!--About Me-->
+      <section id="about">
+        
+          <h1>About Me</h1>
+          <p>Saya adalah mahasiswa semester 5 yang sedang 
+            menempuh program studi Sistem Informasi di 
+            Universitas Gunadarma. Pengalaman serta 
+            keahlian dalam mengolah informasi dan web 
+            development telah dan sedang saya tempuh di 
+            berbagai kegiatan. Saya memiliki ketertarikan 
+            besar untuk berperan aktif dalam perkembangan 
+            bidang IT.
+            </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dicta inventore suscipit, provident magni reprehenderit corporis quibusdam recusandae mollitia ea sed commodi! Accusantium amet, mollitia debitis corrupti eaque deserunt aspernatur!</p>
+          <iframe width="500" height="300" src="https://www.youtube.com/embed/3U1AhjEf7DM" ></iframe>
+       
+      </section>
+      <hr>
+      <!--Akhir About-->
+
+      <!--Contact Me-->
+      <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="">
+          <div>
+          <label for="inputemail">Email</label><br>
+          <input type="email" name="email" id="inputemail" placeholder="Masukkan Email Anda" required>
+        </div>
+        <br>
+        <div>
+          <label for="inputpesan">Pesan</label> <br>
+          <textarea name="pesan" id="inputpesan" cols="50" rows="10" placeholder="Masukkan Pesan Anda" required></textarea>
+        </div>
+        <button type="submit" class="button">Kirim</button>
+        </form>
+      </section>
+      <hr>
+    </div>
+      <!--Akhir Contact-->
+      <footer>
+        <p>&#169;COPYRIGHT Syahrul Nizam_11120116_3KA19</p>
+      </footer>
+  </body>
+</html>
+
